@@ -1,6 +1,6 @@
 <?php
     return [
-		'tr_cmtestrender_title' => 'Redex AboutUs',
+		'tr_cmtestrender_title' => 'Test Render',
 		'tr_cmtestrender_desc' => 'We are creating about us dynamic component data',
 		'tr_cmtestrender_common_table_edit_button' => 'Editer',
 		'tr_cmtestrender_common_table_delete_button' => 'Supprimer',
@@ -51,5 +51,9 @@
 		'tr_cmtestrender_input_updated_at_tooltip' => '',
 		'tr_cmtestrender_input_lang_local' => 'fr_FR',
 		'tr_cmtestrender_input_tbl_type' => 'pri_tbl',
-
+		'tr_cmtestrender_plugin' => 'CM Test Render Plugin',
+		'tr_cmtestrender_plugin_desc' => 'CM Test Render Plugin Des',
+		'tr_cmtestrender_plugin_properties' => 'CM Test Render Plugin Properties',
+		'tr_section_1_title' => 'Section 1',
+		'tr_section_1_desc' => 'Section 1 description',
     ];

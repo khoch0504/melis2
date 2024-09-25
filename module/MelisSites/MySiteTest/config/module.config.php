@@ -59,7 +59,12 @@ return [
             ],
         ],
     ],
-    'controllers' => [
+    'controller_plugins' => [
+		'invokables' => [
+			'MySiteTestTestpluginPlugin' => \MySiteTest\Controller\Plugin\MySiteTestTestpluginPlugin::class,
+		],
+	],
+	'controllers' => [
         'invokables' => [
             'MySiteTest\Controller\Home'    => MySiteTest\Controller\HomeController::class,
             'MySiteTest\Controller\Page404' => MySiteTest\Controller\Page404Controller::class,
@@ -74,7 +79,9 @@ return [
             'MySiteTest' => true,
         ],
         'template_map' => [
-            'MySiteTest/defaultLayout'  => __DIR__ . '/../view/layout/defaultLayout.phtml',
+            'MySiteTest/plugins/test-plugin' => __DIR__.'/../view/plugins/test-plugin.phtml',
+			'MySiteTest/plugins/plugin-test-plugin-tab-1-modal-form' => __DIR__.'/../view/plugins/plugin-test-plugin-tab-1-modal-form.phtml',
+			'MySiteTest/defaultLayout'  => __DIR__ . '/../view/layout/defaultLayout.phtml',
             'layout/errorLayout'        => __DIR__ . '/../view/error/404.phtml',
 
             // Errors layout

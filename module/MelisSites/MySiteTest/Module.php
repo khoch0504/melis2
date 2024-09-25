@@ -37,6 +37,7 @@ class Module
     	$config = [];
     	$configFiles = [
             include __DIR__ . '/config/module.config.php',
+			include __DIR__ . '/config/plugins/MySiteTestTestpluginPlugin.config.php',
             include __DIR__ . '/config/melis.plugins.config.php',
             include __DIR__ . '/config/MySiteTest.config.php',
     	];

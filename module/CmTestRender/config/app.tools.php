@@ -57,7 +57,7 @@ return [
 								'sortable' => true
 							],
                             'section_id' => [
-								'text' => 'tr_redexhomepage_input_section_id',
+								'text' => 'tr_cmtestrender_input_section_id',
 								'css' => ['width' => '13%'],
 								'sortable' => true
 							],
